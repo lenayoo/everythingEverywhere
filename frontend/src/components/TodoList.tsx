@@ -32,6 +32,13 @@ export const TodoList = () => {
     setNewTodo('');
   };
 
+  const checkHandler = async (id: number) => {
+    const updatedList = list.map((todo) =>
+      todo.id == id ? { ...todo, checked: !todo.checked } : todo
+    );
+    setList(updatedList);
+  };
+
   return (
     <div className='todo-main'>
       <div>{today}</div>
@@ -49,7 +56,11 @@ export const TodoList = () => {
               <>
                 <li key={index}>
                   {todo.todo}
-                  <input type='checkbox' checked={todo.checked} />
+                  <input
+                    type='checkbox'
+                    checked={todo.checked}
+                    onChange={() => checkHandler(todo.id)}
+                  />
                 </li>
               </>
             ))}

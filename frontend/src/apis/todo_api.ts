@@ -8,7 +8,7 @@ export const getTodos = async () => {
   return response.data;
 };
 
-export const postTodo = async (todo: Todo) => {
+export const postTodo = async (todo: Omit<Todo, 'id'>): Promise<Todo> => {
   const response = await axios.post(TODO_API_URL, todo);
   return response.data;
 };
