@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  height: 85vh;
+  background-color: lightcyan;
+}
+
+.left-navbar {
+  flex: 1;
+  background-color: #646cffaa;
+}
+
+.right-main {
+  flex: 4;
+  background-color: lightseagreen;
+}
+
+ul {
+  color: dark-gray;
+}
+li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+li a {
+  color: rgba(50, 46, 46, 0.956) !important;
+}
+
+/* Todo list */
+.todo-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  width: 30%;
+  text-align: center;
+  padding: 1.5rem;
+}
+.form {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-todo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.add-todo input {
+  width: 60%;
+}
+.add-todo button {
+  margin-left: 2rem;
+}
+.todo-list {
+  width: 100%;
+}
+.todo-list ul {
+  text-align: left;
+  padding: 0 2rem;
+  margin-right: 1rem;
+  width: 80%;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

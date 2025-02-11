@@ -1,0 +1,34 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  height: 85vh;
+  background-color: lightcyan;
+}
+
+.left-main {
+  flex: 1;
+  height: 100vh;
+  background-color: #646cffaa;
+}
+
+.right-main {
+  flex: 4;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+li a {
+  color: dark-gray !important;
+}
