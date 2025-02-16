@@ -39,6 +39,17 @@ export const TodoList = () => {
     setList(updatedList);
   };
 
+  const deleteTodoHandler = async (id: number) => {
+    console.log('clicked');
+    try {
+      await deleteTodo(id);
+      const updatedList = list.filter((todo) => todo.id != id);
+      setList(updatedList);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <div className='todo-main'>
       <div>{today}</div>
@@ -61,6 +72,9 @@ export const TodoList = () => {
                     checked={todo.checked}
                     onChange={() => checkHandler(todo.id)}
                   />
+                  <button onClick={() => deleteTodoHandler(todo.id)}>
+                    delete
+                  </button>
                 </li>
               </>
             ))}
