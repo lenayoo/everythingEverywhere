@@ -29,9 +29,11 @@ class Todo(MethodView):
     @blp.response(200, TodoSchema)
     def put(self, todo_id, todo_data):
         todo = TodoModel.query.get(todo_id)
+        print("🍋", todo_data)
         if todo:
             todo.todo = todo_data["todo"]
-            todo.chekced = todo_data["checked"]
+            todo.date = todo_data["date"]
+            todo.checked = todo_data["checked"]
         else:
             todo = TodoModel(id=todo_id, **todo_data)
 

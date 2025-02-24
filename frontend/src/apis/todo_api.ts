@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Todo } from '../types/todo';
+import { Todo, EditTodo } from '../types/todo';
 
 const TODO_API_URL = 'http://localhost:5001/todo';
 
@@ -13,8 +13,10 @@ export const postTodo = async (todo: Omit<Todo, 'id'>): Promise<Todo> => {
   return response.data;
 };
 
-export const updateTodo = async (id: number, todo: Todo) => {
-  const response = await axios.put(`${TODO_API_URL}/${id}`, todo);
+export const updateTodo = async (id: number, editTodo: EditTodo) => {
+  console.log('called💡');
+  const response = await axios.put(`${TODO_API_URL}/${id}`, editTodo);
+  console.log('💡', response.data);
   return response.data;
 };
 

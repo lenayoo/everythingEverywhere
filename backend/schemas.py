@@ -10,4 +10,5 @@ class TodoSchema(Schema):
 
 class TodoUpdateSchema(Schema):
     todo = fields.Str(required=True)
+    date = fields.Date(required=True)
     checked = fields.Bool(required=True)

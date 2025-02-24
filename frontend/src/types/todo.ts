@@ -4,3 +4,9 @@ export interface Todo {
   todo: string;
   checked: boolean;
 }
+
+export interface EditTodo {
+  date: string;
+  todo: string;
+  checked: boolean;
+}
