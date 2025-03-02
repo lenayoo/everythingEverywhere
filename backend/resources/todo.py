@@ -32,7 +32,6 @@ class Todo(MethodView):
         print("🍋", todo_data)
         if todo:
             todo.todo = todo_data["todo"]
-            todo.date = todo_data["date"]
             todo.checked = todo_data["checked"]
         else:
             todo = TodoModel(id=todo_id, **todo_data)

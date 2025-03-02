@@ -6,7 +6,6 @@ export interface Todo {
 }
 
 export interface EditTodo {
-  date: string;
   todo: string;
   checked: boolean;
 }
