@@ -1,4 +1,4 @@
-from marshmallow import Schema, fields
+from marshmallow import Schema, fields, EXCLUDE
 
 
 class TodoSchema(Schema):
@@ -9,6 +9,8 @@ class TodoSchema(Schema):
 
 
 class TodoUpdateSchema(Schema):
+    class Meta:
+        unknown = EXCLUDE
+
     todo = fields.Str(required=True)
-    date = fields.Date(required=True)
     checked = fields.Bool(required=True)

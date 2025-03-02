@@ -1,7 +1,14 @@
+version: '3.8'
+
 services:
   web:
     build: .
     ports:
-      - '5000:5000'
+      - '5001:5000'
     volumes:
-      - .:/app
+      - .:/app # 🔥 핫 리로드를 위해 볼륨 마운트 설정
+    environment:
+      FLASK_APP: app # 🔥 Flask 실행 파일 지정
+      FLASK_ENV: development # 🔥 개발 모드 설정
+      FLASK_DEBUG: 1 # 🔥 디버그 모드 활성화
+

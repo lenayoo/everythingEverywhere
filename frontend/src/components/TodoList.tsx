@@ -30,6 +30,7 @@ export const TodoList = () => {
 
     const todoData = { date: today, todo: newTodo, checked: false };
     const createdTodo = await postTodo(todoData);
+    console.log('🌟', createdTodo);
 
     setList([...list, createdTodo]);
     setNewTodo('');
@@ -69,7 +70,7 @@ export const TodoList = () => {
 
     if (editTodo.trim() === '') return;
 
-    const editedData = { date: today, todo: editTodo, checked: false };
+    const editedData = { todo: editTodo, checked: false };
 
     try {
       const editedTodo = await updateTodo(id, editedData);

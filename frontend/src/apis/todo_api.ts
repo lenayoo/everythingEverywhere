@@ -10,13 +10,13 @@ export const getTodos = async () => {
 
 export const postTodo = async (todo: Omit<Todo, 'id'>): Promise<Todo> => {
   const response = await axios.post(TODO_API_URL, todo);
+  console.log('🌸post', response.data);
   return response.data;
 };
 
 export const updateTodo = async (id: number, editTodo: EditTodo) => {
-  console.log('called💡');
+  console.log('🌸edit', id, editTodo);
   const response = await axios.put(`${TODO_API_URL}/${id}`, editTodo);
-  console.log('💡', response.data);
   return response.data;
 };
 

@@ -14,6 +14,8 @@ from resources.todo import blp as TodoBlueprint
 
 def create_app(db_url=None):
     app = Flask(__name__)
+    app.config["ENV"] = "development"
+    app.config["DEBUG"] = True
     CORS(app)
 
     app.config["PROPAGATE_EXCEPTIONS"] = True
