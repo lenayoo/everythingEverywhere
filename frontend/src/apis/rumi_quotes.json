@@ -1,0 +1,334 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "What you seek is seeking you."
+    },
+    {
+      "id": 2,
+      "text": "The wound is the place where the light enters you."
+    },
+    {
+      "id": 3,
+      "text": "Do not feel lonely, the entire universe is inside you."
+    },
+    {
+      "id": 4,
+      "text": "When the soul lies down in that grass, the world is too full to talk about."
+    },
+    {
+      "id": 5,
+      "text": "You were born with wings. Why prefer to crawl through life?"
+    },
+    {
+      "id": 6,
+      "text": "Be like a tree and let the dead leaves drop."
+    },
+    {
+      "id": 7,
+      "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself."
+    },
+    {
+      "id": 8,
+      "text": "Raise your words, not voice. It is rain that grows flowers, not thunder."
+    },
+    {
+      "id": 9,
+      "text": "Don't grieve. Anything you lose comes round in another form."
+    },
+    {
+      "id": 10,
+      "text": "Stop acting so small. You are the universe in ecstatic motion."
+    },
+    {
+      "id": 11,
+      "text": "Why do you stay in prison, when the door is so wide open?"
+    },
+    {
+      "id": 12,
+      "text": "Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray."
+    },
+    {
+      "id": 13,
+      "text": "Be soulful. Be kind. Be in love."
+    },
+    {
+      "id": 14,
+      "text": "Let the beauty of what you love be what you do."
+    },
+    {
+      "id": 15,
+      "text": "Silence is the language of God, all else is poor translation."
+    },
+    {
+      "id": 16,
+      "text": "Seek the wisdom that will untie your knot. Seek the path that demands your whole being."
+    },
+    {
+      "id": 17,
+      "text": "You are not a drop in the ocean. You are the entire ocean, in a drop."
+    },
+    {
+      "id": 18,
+      "text": "Love is the bridge between you and everything."
+    },
+    {
+      "id": 19,
+      "text": "There is a candle in your heart, ready to be kindled."
+    },
+    {
+      "id": 20,
+      "text": "Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it."
+    },
+
+    {
+      "id": 21,
+      "text": "The very centre of your heart is where life begins. The most beautiful place on Earth."
+    },
+    {
+      "id": 22,
+      "text": "This universe is not outside of you. Look inside yourself; everything that you want, you already are."
+    },
+    {
+      "id": 23,
+      "text": "As you live deeper in the heart, the mirror gets clearer and cleaner."
+    },
+    {
+      "id": 24,
+      "text": "Be kind to yourself, dear – to our innocent follies. Forget any sounds or touch you knew that did not help you dance. You will come to see that all evolves us."
+    },
+    {
+      "id": 25,
+      "text": "Your heart knows the way, run in that direction."
+    },
+    {
+      "id": 26,
+      "text": "It’s your road and yours alone others may walk it with you, but no one can walk it for you."
+    },
+    {
+      "id": 27,
+      "text": "Always remember you are braver than you believe, stronger than you seem, smarter than you think and twice as beautiful as you’d ever imagined."
+    },
+    {
+      "id": 28,
+      "text": "You have within you more love than you could ever understand."
+    },
+    {
+      "id": 29,
+      "text": "You are the soul of the soul of the universe, and your name is Love."
+    },
+    {
+      "id": 30,
+      "text": "Find the sweetness in your own heart, then you may find the sweetness in every heart."
+    },
+
+    {
+      "id": 31,
+      "text": "Goodbyes are only for those who love with their eyes. Because for those who love with heart and soul, there is no such thing as separation."
+    },
+    {
+      "id": 32,
+      "text": "Love is the bridge between you and everything."
+    },
+    {
+      "id": 33,
+      "text": "Be certain that in the religion of Love, there are no believers and unbelievers. LOVE embraces all."
+    },
+    {
+      "id": 34,
+      "text": "Love sometimes wants to do us a great favour: hold us upside down and shake all the nonsense out."
+    },
+    {
+      "id": 35,
+      "text": "Lovers don’t finally meet somewhere. They’re in each other all along."
+    },
+    {
+      "id": 36,
+      "text": "Would you become a pilgrim on the road of love? The first condition is that you make yourself humble as dust and ashes."
+    },
+    {
+      "id": 37,
+      "text": "Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray."
+    },
+    {
+      "id": 38,
+      "text": "Wherever you are, and whatever you do, be in love."
+    },
+    {
+      "id": 39,
+      "text": "Close your eyes, fall in love, stay there."
+    },
+    {
+      "id": 40,
+      "text": "Be soulful. Be kind. Be in love."
+    },
+    {
+      "id": 41,
+      "text": "Let us carve gems out of our stony hearts and let them light our path to love."
+    },
+    {
+      "id": 42,
+      "text": "Lovers have heartaches that can’t be cured by drugs or sleep or games, but only by seeing their beloved."
+    },
+    {
+      "id": 43,
+      "text": "Anything which is more than our necessity is poison. It may be power, wealth, hunger, ego, greed, laziness, love, ambition, hate or anything."
+    },
+    {
+      "id": 44,
+      "text": "Set your life on fire. Seek those who fan your flames."
+    },
+    {
+      "id": 45,
+      "text": "Do not feel lonely, the entire universe is inside you."
+    },
+    {
+      "id": 46,
+      "text": "There are a thousand ways to kneel and kiss the ground; there are a thousand ways to go home again."
+    },
+    {
+      "id": 47,
+      "text": "This place is a dream. Only a sleeper considers it real. Then death comes like dawn, and you wake up laughing at what you thought was your grief."
+    },
+    {
+      "id": 48,
+      "text": "You are not a drop in the ocean. You are the entire ocean, in a drop."
+    },
+    {
+      "id": 49,
+      "text": "If the foot of the trees were not tied to the earth, they would be pursuing me. For I have blossomed so much, I am the envy of the gardens."
+    },
+    {
+      "id": 50,
+      "text": "Stop acting so small. You are the universe in ecstatic motion."
+    },
+    {
+      "id": 51,
+      "text": "Don’t be satisfied with stories, how things have gone with others. Unfold your myth."
+    },
+    {
+      "id": 52,
+      "text": "When you do things from your soul, you feel a river moving in you, a joy."
+    },
+    {
+      "id": 53,
+      "text": "Don’t grieve. Anything you lose comes round in another form."
+    },
+    {
+      "id": 54,
+      "text": "What you seek is seeking you."
+    },
+    {
+      "id": 55,
+      "text": "Those who don’t feel this love pull like a river."
+    },
+    {
+      "id": 56,
+      "text": "Out beyond ideas of wrongdoing and right doing there is a field. I’ll meet you there."
+    },
+    {
+      "id": 57,
+      "text": "You have to keep breaking your heart until it opens."
+    },
+    {
+      "id": 58,
+      "text": "Why do you stay in prison, when the door is so wide open?"
+    },
+    {
+      "id": 59,
+      "text": "The prophets accept all agony and trust it. For the water has never feared the fire."
+    },
+    {
+      "id": 60,
+      "text": "Your depression is connected to your insolence and refusal to praise."
+    },
+    {
+      "id": 61,
+      "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself."
+    },
+    {
+      "id": 62,
+      "text": "Everything that is made beautiful and fair and lovely is made for the eye of one who sees."
+    },
+    {
+      "id": 63,
+      "text": "Ignore those that make you fearful and sad, that degrade you back towards disease and death."
+    },
+    {
+      "id": 64,
+      "text": "There is a candle in your heart, ready to be kindled. There is a void in your soul, ready to be filled. You feel it, don’t you?"
+    },
+    {
+      "id": 65,
+      "text": "Words are a pretext. It is the inner bond that draws one person to another, not words."
+    },
+    {
+      "id": 66,
+      "text": "I know you’re tired but come, this is the way."
+    },
+    {
+      "id": 67,
+      "text": "The wound is the place where the light enters you."
+    },
+    {
+      "id": 68,
+      "text": "And so it is, that both the devil and the angelic spirits present us with objects of desire to awaken our power of choice."
+    },
+    {
+      "id": 69,
+      "text": "I want to sing like the birds sing, not worrying about who hears or what they think."
+    },
+    {
+      "id": 70,
+      "text": "When the world pushes you to your knees, you’re in the perfect position to pray."
+    },
+    {
+      "id": 71,
+      "text": "I am not this hair, I am not this skin, I am the soul that lives within."
+    },
+    {
+      "id": 72,
+      "text": "Be full of sorrow, that you may become a hill of joy; weep, that you may break into laughter."
+    },
+    {
+      "id": 73,
+      "text": "Sell your cleverness and buy bewilderment. Cleverness is mere opinion. Bewilderment brings intuitive knowledge."
+    },
+    {
+      "id": 74,
+      "text": "Be empty of worrying. Think of who created thought."
+    },
+    {
+      "id": 75,
+      "text": "Don’t you know yet? It is your light that lights the world."
+    },
+    {
+      "id": 76,
+      "text": "Seek the wisdom that will untie your knot. Seek the path that demands your whole being."
+    },
+    {
+      "id": 77,
+      "text": "Dance until you shatter yourself."
+    },
+    {
+      "id": 78,
+      "text": "It’s your road, and yours alone, others may walk it with you, but no one can walk it for you."
+    },
+    {
+      "id": 79,
+      "text": "Why do you stay in prison when the door is so wide open."
+    },
+    {
+      "id": 80,
+      "text": "As you start to walk on the way, the way appears."
+    },
+    {
+      "id": 81,
+      "text": "What hurts you, blesses you. Darkness is your candle."
+    },
+    {
+      "id": 82,
+      "text": "The only lasting beauty is the beauty of the heart."
+    }
+  ]
+}

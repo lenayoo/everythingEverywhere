@@ -22,7 +22,7 @@
 
 .right-main {
   flex: 4;
-  background-color: lightseagreen;
+  background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
