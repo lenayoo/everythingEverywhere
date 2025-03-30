@@ -14,3 +14,10 @@ class TodoUpdateSchema(Schema):
 
     todo = fields.Str(required=True)
     checked = fields.Bool(required=True)
+
+
+class BookSchema(Schema):
+    id = fields.Int(dump_only=True)
+    title = fields.Str(required=False)
+    author = fields.Str(required=False)
+    description = fields.Str(required=False)
