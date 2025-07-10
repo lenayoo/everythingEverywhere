@@ -7,8 +7,8 @@
 
 ### Feature
 
-- [] link to Qiita api to update writing and extract from qiita article
-- [] update my developmeent daily diaries
+- [] link to Qiita api to update writing and extract from Qiita article
+- [] update my development daily diaries
 - [] able to search articles using keyword
 - [] 프론트에서 todo 입력시 백엔드에서 id를 부여하는 방식으로 수정하기
 

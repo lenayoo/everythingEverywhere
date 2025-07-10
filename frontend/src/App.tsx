@@ -3,10 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import { Qiita } from './components/Qiita';
-import { CloneCoding } from './components/CloneCoding';
-import { Schedule } from './components/Schedule';
 import { TodoList } from './components/TodoList';
-import { FortuneCookie } from './components/FortuneCookie';
 import { Inspiration } from './components/Inspiration';
 
 const App = () => {
@@ -23,10 +20,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/todo' element={<TodoList />} />
-            <Route path='/schedule' element={<Schedule />} />
-            <Route path='/clone_coding' element={<CloneCoding />} />
             <Route path='/qiita' element={<Qiita />} />
-            <Route path='/fortune_cookie' element={<FortuneCookie />} />
             <Route path='/inspiration' element={<Inspiration />} />
           </Routes>
         </div>

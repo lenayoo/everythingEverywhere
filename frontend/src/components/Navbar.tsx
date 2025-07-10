@@ -8,16 +8,7 @@ export const Navbar = () => {
         <Link to='/todo'>Today's to do list</Link>
       </li>
       <li>
-        <Link to='/schedule'>lena schedule - connect to google calender</Link>
-      </li>
-      <li>
-        <Link to='/clone_coding'>clone coding - x</Link>
-      </li>
-      <li>
         <Link to='/quiita'>what i learned - connect to qiita</Link>
-      </li>
-      <li>
-        <Link to='/fortune_cookie'>today's fortune cookie</Link>
       </li>
       <li>
         <Link to='/inspiration'>Inspirational quotes</Link>
